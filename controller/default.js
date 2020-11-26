@@ -1,4 +1,4 @@
-const Author=require("../model/author");
+
 
 //   GET /restituisci_testo
 exports.getGetText = (req, res, next) => {
@@ -29,6 +29,5 @@ exports.getIndex = (req, res, next) => {
          <p> <a href="/index.html">/index.html</a> </p>
          <p> <a href="/restituisci_testo">/restituisci_testo</a> </p>
          <p> <a href="/restituisci_valore/3">/restituisci_valore/3</a> </p>
-         <p> Autore: ${Author.getName()}</p>
         `);
 };
